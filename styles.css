@@ -86,7 +86,7 @@ img {
 
 h1 { 
     font-family: var(--inter);
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--white);
 }
 
@@ -134,7 +134,7 @@ div.card-content > p {
     }
 
     .card-content {
-        padding: 2.5rem 5rem 2.5rem 3rem;
+        padding: 2.5rem 5rem 2.5rem 4rem;
     }
     
     h1,
