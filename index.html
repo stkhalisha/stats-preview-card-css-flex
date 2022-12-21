@@ -12,35 +12,39 @@
     <title>Stats preview card component</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+  
   <body>
     <main>
       <article class="flex">
-        <div class="card-image">
+        <picture class="card-image">
+        <source srcset="./images/image-header-mobile.jpg" media="(max-width: 1100px)"/>
           <img
-            src="./images/image-header-mobile.jpg"
-            alt="Get insights that help your business grow."
+            src="./images/image-header-desktop.jpg"
+            alt=""
+            aria-hidden="true"
           />
         </img>
-        </div>
+        </picture>
+        
         <div class="card-content">
           <h1>Get<span> insights </span>that help your business grow.</h1>
           <p>
             Discover the benefits of data analytics and make better decisions
             regarding revenue, customer experience, and overall efficiency.
           </p>
-          <div class="stats-container">
-          <div class="stats">
+          <ul class="stats-container">
+          <li class="stats">
             <p class="stats-heading">10k+</p>
             <p class="stats-desc">companies</p>
-          </div>
-          <div class="stats">
+          </li>
+          <li class="stats">
             <p class="stats-heading">314</p>
             <p class="stats-desc">templates</p>
-          </div>
-          <div class="stats">
+          </li>
+          <li class="stats">
             <p class="stats-heading">12M+</p>
             <p class="stats-desc">queries</p>
-          </div>
+          </li>
           </div>
         </div>
       </article>
